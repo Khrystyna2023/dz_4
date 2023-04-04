@@ -1,7 +1,7 @@
 import java.util.PrimitiveIterator;
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+//import java.io.IOException;
+//import java.io.BufferedReader;
+//import java.io.InputStreamReader;
 import java.util.Scanner; //імпорт сканера (використовується для ввода даних з клави)
 
 public class Print {
@@ -17,8 +17,8 @@ public class Print {
             }
             else
                 System.out.println("Incorrect value. Please, enter only integer number");
-            int i = myPrint();
-            return i;
+            //int i = myPrint();
+            return myPrint();
         }
 
     }
